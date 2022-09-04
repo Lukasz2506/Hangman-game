@@ -93,7 +93,7 @@ stage_no = 0
 while not end_of_game:
 
     guess = input("Choose the letter from the word: ").lower()
-    if guess in chosen_word:
+    if guess in display:
         print("you already choose this letter. Try again :)")
 
 
